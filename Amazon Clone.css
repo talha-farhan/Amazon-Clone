@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    font-family: Calibri;
+    border: border-box; /* when box size is changed, the content adjusts its size accordingly */
+}
+
+.navbar {
+    margin: 0 0 0 1;
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex; /* This makes all divs in the nav bar look in the same line */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/** Box 1 **/
+.nav-logo {
+    height: 50px;
+    width: 110px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/** Box 2 **/
+.address-line {
+    color: #CCCCCC;
+    font-size: 0.85rem; /* rem is used here so that our website becomes more responsive to media ports */
+    margin-left: 12px; /* To make deliver to and country start at the same position */
+}
+
+.address-icon {
+    display: flex; /* This is done to make the icon and country name look in same line */
+    align-items: center; /* The text and the icon are aligned */
+}
+
+.address.country {
+    color: #FFFFFF; /* As the color of navbar is already white, so there is no need to do this extra part */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Box 3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px; /* To make edges curved */
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none; /* To remove gap between select and input */
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center; /* For horizontal alignment */
+    align-items: center; /* For vertical alignment */
+    font-size: 1.2rem;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+/* Box 5 */
+
+
+span {
+    font-size: 0.85rem;
+}
+.nav-signin2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Box 6 */
+
+
+/* Box 7 */
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+/* Panel Bar */
+.panel {
+    height: 40px;
+    background-color: #222F3D; /* We can also set color by adjusting the opacity */
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.panel-all {
+    width: 60px;
+    padding-left: 15px;
+}
+
+.panel-options {
+    width: 100%;
+    
+}
+
+.panel-options p {
+    display: inline;
+    padding: 10px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url("71U-Q+N7PXL._SX3000_.jpg");
+    background-size: cover;
+    height: 350px;
+}
+
+/* Shop Section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #E2E7E6;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 20px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-image {
+    background-size: cover;
+    height: 350px;
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+/* Footer */
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #37475A;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222F3D;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul {
+    margin-top: 30px;
+}
+
+.foot-panel2 ul p {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.foot-panel2 ul a {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+
+.foot-panel3 {
+    background-color: #222F3D;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0F1111;
+    color: white;
+    height: 75px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+}
